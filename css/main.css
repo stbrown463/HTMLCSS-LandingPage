@@ -44,7 +44,7 @@ section {
 /********************************************/
 
 .btn {
-    border: none;
+    border: 0;
     cursor: pointer;
     padding: 6px 12px;
     border-radius: 3px;
@@ -52,11 +52,13 @@ section {
 }
 
 .btn-default {
-    background-color: #faa541
+    background-color: #faa541;
+    color: #ffffff;
 }
 
 .btn-primary {
-    background-color: #364147
+    background-color: #364147;
+    color: #ffffff;
 }
 
 .form-control {
